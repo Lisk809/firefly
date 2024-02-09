@@ -4,7 +4,7 @@ import './App.css'
 function App() {
   return (
     <>
-    <div class="hero">
+    <div className="hero">
     <img src={hero} className="logo" />
     </div>
     <footer>Copyright © 2024 Lisk All rights reserved.</footer>
