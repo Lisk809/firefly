@@ -16,5 +16,9 @@
     "typescript": "^5.2.2",
     "vite": "^5.1.0",
     "vue-tsc": "^1.8.27"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/lisk809/liuying.git",
+  "author": "Lisk <liskqwq@gmail.com>",
+  "license": "MIT"
 }
