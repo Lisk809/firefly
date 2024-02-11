@@ -19,9 +19,12 @@ watch(isGray, (now)=>{
 <style scoped>
 .hero {
   border-radius:30px;
+  transition:200ms;
 }
 footer {
   color:#555;
+  font-family:"Kirang";
+  font-size:32px
 }
 .logo {
   height: 100%;
@@ -30,7 +33,8 @@ footer {
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  /*filter: drop-shadow(0 0 4em #688978);*/
+@font-face{
+  font-family:"Kirang";
+  src:url("/font.ttf");
 }
 </style>
